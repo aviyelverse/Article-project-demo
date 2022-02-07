@@ -4,9 +4,9 @@ const runClient = async () => {
   let client = new Typesense.Client({
     nodes: [
       {
-        host: 'localhost', // For Typesense Cloud use xxx.a1.typesense.net
-        port: '8108', // For Typesense Cloud use 443
-        protocol: 'http', // For Typesense Cloud use https
+        host: 'localhost',
+        port: '8108',
+        protocol: 'http',
       },
     ],
     apiKey: '6be0576ff61c053d5f9a3225e2a90f76',
@@ -26,6 +26,7 @@ const runClient = async () => {
     default_sorting_field: 'ratings_count',
   };
 
+  await client.collections('books').delete();
   const loadData = await client.collections().create(booksSchema);
 
   console.log(loadData);
