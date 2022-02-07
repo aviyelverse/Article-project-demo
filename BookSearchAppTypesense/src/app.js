@@ -26,6 +26,9 @@ search.addWidgets([
   instantsearch.widgets.searchBox({
     container: '#searchbox',
   }),
+  instantsearch.widgets.configure({
+    hitsPerPage: 12,
+  }),
   instantsearch.widgets.hits({
     container: '#hits',
     templates: {
