@@ -51,6 +51,14 @@ search.addWidgets([
     container: '#filterList',
     attribute: 'authors',
   }),
+  instantsearch.widgets.sortBy({
+    container: '#sort-books',
+    items: [
+      { label: 'Default', value: 'books' },
+      { label: 'Ratings', value: 'books/sort/average_rating:asc' },
+      { label: 'Publication year', value: 'books/sort/publication_year:asc' },
+    ],
+  }),
   instantsearch.widgets.pagination({
     container: '#pagination',
   }),
