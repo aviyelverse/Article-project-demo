@@ -1,4 +1,5 @@
 const Typesense = require('typesense');
+const fs = require('fs/promises');
 
 const runClient = async () => {
   let client = new Typesense.Client({
@@ -28,6 +29,11 @@ const runClient = async () => {
 
   await client.collections('books').delete();
   const loadData = await client.collections().create(booksSchema);
+  const documents = await fs.readFile('./dataset/books.jsonl');
+  client
+    .collections('books')
+    .documents()
+    .import(documents, { batch_size: 200 });
 
   console.log(loadData);
 };
