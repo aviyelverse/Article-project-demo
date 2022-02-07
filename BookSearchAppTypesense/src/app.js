@@ -41,8 +41,8 @@ search.addWidgets([
           <div class="hit-description">
             {{#helpers.highlight}}{ "attribute": "authors" }{{/helpers.highlight}}
           </div>
-          <div class="hit-price">\$</div>
-          <div class="hit-rating">Rating: </div>
+          <div class="hit-price">{{publication_year}}</div>
+          <div class="hit-rating">Rating:{{average_rating}} </div>
         </div>
       `,
     },
