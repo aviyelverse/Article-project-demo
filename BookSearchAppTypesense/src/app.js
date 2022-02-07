@@ -28,20 +28,21 @@ search.addWidgets([
   }),
   instantsearch.widgets.hits({
     container: '#hits',
-  }),
-  instantsearch.widgets.configure({
-    facets: ['*'],
-    maxValuesPerFacet: 20,
-  }),
-  instantsearch.widgets.dynamicWidgets({
-    container: '#dynamic-widgets',
-    fallbackWidget({ container, attribute }) {
-      return instantsearch.widgets.refinementList({
-        container,
-        attribute,
-      });
+    templates: {
+      item: `
+        <div>
+          <img src="{{image_url}}" align="left" alt="" />
+          <div class="hit-name">
+            {{#helpers.highlight}}{ "attribute": "title" }{{/helpers.highlight}}
+          </div>
+          <div class="hit-description">
+            {{#helpers.highlight}}{ "attribute": "authors" }{{/helpers.highlight}}
+          </div>
+          <div class="hit-price">\$</div>
+          <div class="hit-rating">Rating: </div>
+        </div>
+      `,
     },
-    widgets: [],
   }),
   instantsearch.widgets.pagination({
     container: '#pagination',
