@@ -47,6 +47,10 @@ search.addWidgets([
       `,
     },
   }),
+  instantsearch.widgets.refinementList({
+    container: '#filterList',
+    attribute: 'authors',
+  }),
   instantsearch.widgets.pagination({
     container: '#pagination',
   }),
