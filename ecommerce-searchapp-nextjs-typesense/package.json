@@ -8,6 +8,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@types/react-instantsearch-dom": "^6.12.2",
     "next": "12.0.10",
     "next-themes": "^0.0.15",
     "react": "17.0.2",
