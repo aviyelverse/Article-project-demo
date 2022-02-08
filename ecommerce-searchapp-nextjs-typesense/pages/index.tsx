@@ -35,6 +35,7 @@ const Home: NextPage = () => {
 
   return (
     <>
+      <h1 className={styles.title}>Ecommerce Search App Nextjs Typesense</h1>
       <button
         className={`${
           wiggle && "animate-wiggle"
@@ -48,7 +49,7 @@ const Home: NextPage = () => {
       >
         {buttonText}
       </button>
-      <h1>Ecommerce SearchApp Nextjs Typesense</h1>
+
       <InstantSearch
         indexName="products"
         searchClient={typesenseInstantsearchAdapter.searchClient}
