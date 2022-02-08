@@ -98,7 +98,6 @@ const runClient = async () => {
   try {
     const collection = await client.collections("products").retrieve();
     console.log("Found existing schema");
-    // console.log(JSON.stringify(collection, null, 2));
     if (
       collection.num_documents !== products.length ||
       process.env.FORCE_REINDEX === "true"
@@ -119,18 +118,12 @@ const runClient = async () => {
   console.log(JSON.stringify(productsSchema, null, 2));
   await client.collections().create(productsSchema);
 
-  // const collectionRetrieved = await typesense
-  //   .collections("products")
-  //   .retrieve();
-  // console.log("Retrieving created schema: ");
-  // console.log(JSON.stringify(collectionRetrieved, null, 2));
-
   console.log("Adding records: ");
 
   // Bulk Import
   products.forEach((product) => {
-    product.free_shipping = product.name.length % 2 === 1; // We need this to be deterministic for tests
-    product.rating = (product.description.length % 5) + 1; // We need this to be deterministic for tests
+    product.free_shipping = product.name.length % 2 === 1;
+    product.rating = (product.description.length % 5) + 1;
     product.categories.forEach((category, index) => {
       product[`categories.lvl${index}`] = [
         product.categories.slice(0, index + 1).join(" > "),
