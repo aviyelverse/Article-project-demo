@@ -5,6 +5,7 @@ import styles from "../styles/Home.module.css";
 import { useTheme } from "next-themes";
 import React, { useState } from "react";
 import TypesenseInstantSearchAdapter from "typesense-instantsearch-adapter";
+import { InstantSearch } from "react-instantsearch-dom";
 
 const typesenseInstantsearchAdapter = new TypesenseInstantSearchAdapter({
   server: {
@@ -47,11 +48,11 @@ const Home: NextPage = () => {
       >
         {buttonText}
       </button>
-      <div className={styles.container}>
-        <main className={styles.main}>
-          <h1 className={styles.title}>Ecommerce SearchApp Nextjs Typesense</h1>
-        </main>
-      </div>
+      <h1>Ecommerce SearchApp Nextjs Typesense</h1>
+      <InstantSearch
+        indexName="products"
+        searchClient={typesenseInstantsearchAdapter.searchClient}
+      ></InstantSearch>
     </>
   );
 };
