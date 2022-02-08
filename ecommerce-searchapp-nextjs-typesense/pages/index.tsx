@@ -4,6 +4,26 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import { useTheme } from "next-themes";
 import React, { useState } from "react";
+import TypesenseInstantSearchAdapter from "typesense-instantsearch-adapter";
+
+const typesenseInstantsearchAdapter = new TypesenseInstantSearchAdapter({
+  server: {
+    apiKey: "ecommerce",
+    nodes: [
+      {
+        host: "localhost",
+        port: "8108",
+        protocol: "http",
+      },
+    ],
+  },
+  additionalSearchParameters: {
+    queryBy: "name,categories,description",
+    queryByWeights: "4,2,1",
+    numTypos: 1,
+    typoTokensThreshold: 1,
+  },
+});
 
 const Home: NextPage = () => {
   const { theme, setTheme } = useTheme();
