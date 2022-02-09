@@ -12,3 +12,7 @@
   --background: black;
   --foreground: white;
 }
+
+.ais-Hits-list {
+  @apply grid grid-cols-4 gap-4;
+}

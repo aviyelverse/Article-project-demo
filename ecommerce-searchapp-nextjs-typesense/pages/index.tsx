@@ -33,7 +33,9 @@ interface Props {
 export const ResultTemplate = ({ hit }: Props) => {
   return (
     <>
-      <div>{hit.name}</div>
+      <div className="bg-gray-500 shadow-md rounded-lg p-9">
+        <h3 className="truncate">{hit.name}</h3>
+      </div>
     </>
   );
 };
