@@ -26,6 +26,18 @@ const typesenseInstantsearchAdapter = new TypesenseInstantSearchAdapter({
   },
 });
 
+interface Props {
+  hit: any;
+}
+
+export const ResultTemplate = ({ hit }: Props) => {
+  return (
+    <>
+      <div>{hit.name}</div>
+    </>
+  );
+};
+
 const Home: NextPage = () => {
   const { theme, setTheme } = useTheme();
   const [wiggle, setWiggle] = useState(false);
@@ -58,7 +70,7 @@ const Home: NextPage = () => {
           <aside className="w-1/4 h-screen"></aside>
           <main>
             <SearchBox />
-            <Hits />
+            <Hits hitComponent={ResultTemplate} />
           </main>
         </div>
       </InstantSearch>
