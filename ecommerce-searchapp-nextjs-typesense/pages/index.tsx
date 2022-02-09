@@ -5,7 +5,15 @@ import styles from "../styles/Home.module.css";
 import { useTheme } from "next-themes";
 import React, { useState } from "react";
 import TypesenseInstantSearchAdapter from "typesense-instantsearch-adapter";
-import { InstantSearch, SearchBox, Hits } from "react-instantsearch-dom";
+import {
+  InstantSearch,
+  SearchBox,
+  Hits,
+  Configure,
+  Pagination,
+  SortBy,
+  RefinementList,
+} from "react-instantsearch-dom";
 
 const typesenseInstantsearchAdapter = new TypesenseInstantSearchAdapter({
   server: {
@@ -33,8 +41,13 @@ interface Props {
 export const ResultTemplate = ({ hit }: Props) => {
   return (
     <>
-      <div className="bg-gray-500 shadow-md rounded-lg p-9">
+      <div className="bg-gray-500 shadow-md rounded-lg p-9 mr-5">
+        <div className="p-24">
+          <Image src={hit.image} height={160} width={85} layout="responsive" />
+        </div>
         <h3 className="truncate">{hit.name}</h3>
+        <h3 className="truncate">Price: ${hit.price}</h3>
+        <p>{hit.description}</p>
       </div>
     </>
   );
@@ -68,11 +81,23 @@ const Home: NextPage = () => {
         indexName="products"
         searchClient={typesenseInstantsearchAdapter.searchClient}
       >
+        <Configure hitsPerPage={12} />
         <div className="flex">
-          <aside className="w-1/4 h-screen"></aside>
+          <aside className="w-1/4 pl-4 h-screen">
+            <RefinementList attribute="brand" />
+          </aside>
           <main>
             <SearchBox />
+            <SortBy
+              items={[
+                { label: "Relevancy", value: "products" },
+                { label: "Price (asc)", value: "products/sort/price:asc" },
+                { label: "Price (desc)", value: "products/sort/price:desc" },
+              ]}
+              defaultRefinement="products"
+            />
             <Hits hitComponent={ResultTemplate} />
+            <Pagination />
           </main>
         </div>
       </InstantSearch>
