@@ -5,7 +5,7 @@ import styles from "../styles/Home.module.css";
 import { useTheme } from "next-themes";
 import React, { useState } from "react";
 import TypesenseInstantSearchAdapter from "typesense-instantsearch-adapter";
-import { InstantSearch } from "react-instantsearch-dom";
+import { InstantSearch, SearchBox, Hits } from "react-instantsearch-dom";
 
 const typesenseInstantsearchAdapter = new TypesenseInstantSearchAdapter({
   server: {
@@ -53,7 +53,15 @@ const Home: NextPage = () => {
       <InstantSearch
         indexName="products"
         searchClient={typesenseInstantsearchAdapter.searchClient}
-      ></InstantSearch>
+      >
+        <div className="flex">
+          <aside className="w-1/4 h-screen"></aside>
+          <main>
+            <SearchBox />
+            <Hits />
+          </main>
+        </div>
+      </InstantSearch>
     </>
   );
 };
