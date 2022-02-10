@@ -28,6 +28,9 @@ search.addWidgets([
   instantsearch.widgets.searchBox({
     container: '#searchbox',
   }),
+  instantsearch.widgets.configure({
+    hitsPerPage: 20,
+  }),
   instantsearch.widgets.hits({
     container: '#hits',
     templates: {
@@ -47,6 +50,20 @@ search.addWidgets([
       </div>
       `,
     },
+  }),
+  instantsearch.widgets.refinementList({
+    container: '#genreFilter',
+    attribute: 'genres',
+    searchable: true,
+    searchablePlaceholder: 'Search genres',
+    showMore: true,
+  }),
+  instantsearch.widgets.refinementList({
+    container: '#artistFilter',
+    attribute: 'primary_artist_name',
+    searchable: true,
+    searchablePlaceholder: 'Search Artist',
+    showMore: true,
   }),
   instantsearch.widgets.pagination({
     container: '#pagination',
