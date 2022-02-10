@@ -1,4 +1,4 @@
-const { algoliasearch, instantsearch } = window;
+const { instantsearch } = window;
 
 import TypesenseInstantSearchAdapter from 'typesense-instantsearch-adapter';
 
@@ -30,20 +30,6 @@ search.addWidgets([
   }),
   instantsearch.widgets.hits({
     container: '#hits',
-  }),
-  instantsearch.widgets.configure({
-    facets: ['*'],
-    maxValuesPerFacet: 20,
-  }),
-  instantsearch.widgets.dynamicWidgets({
-    container: '#dynamic-widgets',
-    fallbackWidget({ container, attribute }) {
-      return instantsearch.widgets.refinementList({
-        container,
-        attribute,
-      });
-    },
-    widgets: [],
   }),
   instantsearch.widgets.pagination({
     container: '#pagination',

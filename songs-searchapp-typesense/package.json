@@ -21,7 +21,10 @@
   },
   "dependencies": {
     "algoliasearch": "4",
+    "fast-json-stringify": "^3.0.2",
     "instantsearch.js": "4.38.0",
+    "lodash": "^4.17.21",
+    "typesense": "^0.14.0",
     "typesense-instantsearch-adapter": "^2.2.0"
   }
 }
