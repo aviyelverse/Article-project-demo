@@ -21,7 +21,7 @@ const searchClient = typesenseInstantsearchAdapter.searchClient;
 
 const search = instantsearch({
   searchClient,
-  indexName: 'books',
+  indexName: 'songs',
 });
 
 search.addWidgets([
