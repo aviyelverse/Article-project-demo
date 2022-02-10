@@ -4,7 +4,7 @@ import TypesenseInstantSearchAdapter from 'typesense-instantsearch-adapter';
 
 const typesenseInstantsearchAdapter = new TypesenseInstantSearchAdapter({
   server: {
-    apiKey: '6be0576ff61c053d5f9a3225e2a90f76',
+    apiKey: 'songsearch',
     nodes: [
       {
         host: 'localhost',
