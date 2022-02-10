@@ -1,10 +1,27 @@
 const { algoliasearch, instantsearch } = window;
 
-const searchClient = algoliasearch('latency', '6be0576ff61c053d5f9a3225e2a90f76');
+import TypesenseInstantSearchAdapter from 'typesense-instantsearch-adapter';
+
+const typesenseInstantsearchAdapter = new TypesenseInstantSearchAdapter({
+  server: {
+    apiKey: '6be0576ff61c053d5f9a3225e2a90f76',
+    nodes: [
+      {
+        host: 'localhost',
+        port: '8108',
+        protocol: 'http',
+      },
+    ],
+  },
+  additionalSearchParameters: {
+    queryBy: 'title,primary_artist_name,album_name', //quering by
+  },
+});
+const searchClient = typesenseInstantsearchAdapter.searchClient;
 
 const search = instantsearch({
-  indexName: 'instant_search',
   searchClient,
+  indexName: 'books',
 });
 
 search.addWidgets([
@@ -26,8 +43,7 @@ search.addWidgets([
         attribute,
       });
     },
-    widgets: [
-    ],
+    widgets: [],
   }),
   instantsearch.widgets.pagination({
     container: '#pagination',
