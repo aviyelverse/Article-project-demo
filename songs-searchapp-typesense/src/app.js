@@ -65,6 +65,14 @@ search.addWidgets([
     searchablePlaceholder: 'Search Artist',
     showMore: true,
   }),
+  instantsearch.widgets.sortBy({
+    container: '#sort-songs',
+    items: [
+      { label: 'Default', value: `songs` },
+      { label: 'Recent songs', value: `songs/sort/release_date:asc` },
+      { label: 'Oldest songs', value: `songs/sort/release_date:desc` },
+    ],
+  }),
   instantsearch.widgets.pagination({
     container: '#pagination',
   }),
