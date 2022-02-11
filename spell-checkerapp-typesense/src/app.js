@@ -22,28 +22,28 @@ const search = instantsearch({
   indexName: 'words',
   searchClient,
 });
-
 search.addWidgets([
   instantsearch.widgets.configure({
-    hitsPerPage: 4,
-    enablePersonalization: true,
+    hitsPerPage: 8,
   }),
 
   instantsearch.widgets.searchBox({
     container: '#searchbox',
-    placeholder: 'Spellcheck..',
-    showReset: true,
-    showLoadingIndicator: false,
   }),
 
-  instantsearch.widgets.hits({
-    container: '#hits',
-    sortBy: 'popularity:desc',
-    templates: {
-      item:
-        '{{#helpers.highlight}}{ "attribute": "word" }{{/helpers.highlight}}',
-    },
-  }),
+  instantsearch.widgets.index({ indexName: 'words' }).addWidgets([
+    instantsearch.widgets.configure({
+      hitsPerPage: 8,
+    }),
+
+    instantsearch.widgets.hits({
+      container: '#hits',
+      templates: {
+        item:
+          '{{#helpers.highlight}}{ "attribute": "word" }{{/helpers.highlight}}',
+      },
+    }),
+  ]),
 ]);
 
 search.start();
