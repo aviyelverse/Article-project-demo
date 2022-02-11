@@ -19,7 +19,7 @@ const typesense = new TypesenseSearchClient(TYPESENSE_SERVER_CONFIG);
 
 let lastWord = '';
 window.document
-  .getElementById('searchbox')
+  .getElementById('textbox')
   .addEventListener('keyup', async event => {
     const currentWord = event.target.value
       .trim()
