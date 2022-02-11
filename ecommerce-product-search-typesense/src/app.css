@@ -1,11 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #e8e8e8;
+}
+
 .header {
   display: flex;
   align-items: center;
-  min-height: 50px;
+  min-height: 70px;
   padding: 0.5rem 1rem;
   background-color: #8661d1;
   color: #fff;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .header a {

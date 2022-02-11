@@ -1,52 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#000000" />
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="theme-color" content="#000000">
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="shortcut icon" href="./favicon.png" />
 
-  <link rel="manifest" href="./manifest.webmanifest">
-  <link rel="shortcut icon" href="./favicon.png">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/instantsearch.css@7/themes/algolia-min.css"
+    />
+    <link rel="stylesheet" href="./src/index.css" />
+    <link rel="stylesheet" href="./src/app.css" />
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@7/themes/algolia-min.css">
-  <link rel="stylesheet" href="./src/index.css">
-  <link rel="stylesheet" href="./src/app.css">
+    <title>ecommerce-product-search-typesense</title>
+  </head>
 
-  <title>ecommerce-product-search-typesense</title>
-</head>
+  <body>
+    <header class="header">
+      <p class="header-subtitle"></p>
+    </header>
 
-<body>
-  <header class="header">
-    <h1 class="header-title">
-      <a href="/">ecommerce-product-search-typesense</a>
-    </h1>
-    <p class="header-subtitle">
-      using
-      <a href="https://github.com/algolia/instantsearch.js">
-        InstantSearch.js
-      </a>
-    </p>
-  </header>
+    <div class="container">
+      <div class="search-panel">
+        <div class="search-panel__filters">
+          <div id="filterList"></div>
+        </div>
 
-  <div class="container">
-    <div class="search-panel">
-      <div class="search-panel__filters">
-        <div id="dynamic-widgets"></div>
+        <div class="search-panel__results">
+          <div id="searchbox"></div>
+          <div id="sort"></div>
+          <div id="hits"></div>
+        </div>
       </div>
 
-      <div class="search-panel__results">
-        <div id="searchbox"></div>
-        <div id="hits"></div>
-      </div>
+      <div id="pagination"></div>
     </div>
 
-    <div id="pagination"></div>
-  </div>
-
-  <script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.10.5/dist/algoliasearch-lite.umd.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.38.1"></script>
-  <script src="./src/app.js"></script>
-</body>
-
+    <script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.10.5/dist/algoliasearch-lite.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.38.1"></script>
+    <script src="./src/app.js"></script>
+  </body>
 </html>
