@@ -1,10 +1,27 @@
-const { algoliasearch, instantsearch } = window;
+const { instantsearch } = window;
 
-const searchClient = algoliasearch('latency', 'spellcheck');
+import TypesenseInstantSearchAdapter from 'typesense-instantsearch-adapter';
+
+const typesenseInstantsearchAdapter = new TypesenseInstantSearchAdapter({
+  server: {
+    apiKey: 'spellcheck',
+    nodes: [
+      {
+        host: 'localhost',
+        port: '8108',
+        protocol: 'http',
+      },
+    ],
+  },
+  additionalSearchParameters: {
+    queryBy: 'word', //quering by
+  },
+});
+const searchClient = typesenseInstantsearchAdapter.searchClient;
 
 const search = instantsearch({
-  indexName: 'words',
   searchClient,
+  indexName: 'words',
 });
 
 search.addWidgets([
@@ -26,8 +43,7 @@ search.addWidgets([
         attribute,
       });
     },
-    widgets: [
-    ],
+    widgets: [],
   }),
   instantsearch.widgets.pagination({
     container: '#pagination',
