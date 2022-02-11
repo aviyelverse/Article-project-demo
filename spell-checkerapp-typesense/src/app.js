@@ -18,35 +18,26 @@ const typesenseInstantsearchAdapter = new TypesenseInstantSearchAdapter({
   },
 });
 const searchClient = typesenseInstantsearchAdapter.searchClient;
-
 const search = instantsearch({
-  searchClient,
   indexName: 'words',
+  searchClient,
 });
 
 search.addWidgets([
-  instantsearch.widgets.searchBox({
-    container: '#searchbox',
-  }),
-  instantsearch.widgets.hits({
-    container: '#hits',
-  }),
   instantsearch.widgets.configure({
-    facets: ['*'],
-    maxValuesPerFacet: 20,
+    hitsPerPage: 24,
   }),
-  instantsearch.widgets.dynamicWidgets({
-    container: '#dynamic-widgets',
-    fallbackWidget({ container, attribute }) {
-      return instantsearch.widgets.refinementList({
-        container,
-        attribute,
-      });
+
+  instantsearch.widgets.searchBox({
+    container: '#textbox',
+  }),
+
+  instantsearch.widgets.hits({
+    container: '#suggestions-list',
+    templates: {
+      item:
+        '{{#helpers.highlight}}{ "attribute": "word" }{{/helpers.highlight}}',
     },
-    widgets: [],
-  }),
-  instantsearch.widgets.pagination({
-    container: '#pagination',
   }),
 ]);
 
