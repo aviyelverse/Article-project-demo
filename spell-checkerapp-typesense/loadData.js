@@ -2,7 +2,7 @@ const fs = require('fs');
 const readline = require('readline');
 const Typesense = require('typesense');
 
-async function indexWordsToTypesense(typesense, wordsCollection, englishWords) {
+async function addWordsToTypesense(typesense, wordsCollection, englishWords) {
   const results = await typesense
     .collections(wordsCollection)
     .documents()
@@ -69,7 +69,7 @@ module.exports = (async () => {
     }
 
     if (currentLine % 5000 === 0) {
-      await indexWordsToTypesense(typesense, wordsCollection, englishWords);
+      await addWordsToTypesense(typesense, wordsCollection, englishWords);
       console.log(` Words upto ${currentLine} ✅`);
       englishWords = [];
     }
@@ -80,16 +80,7 @@ module.exports = (async () => {
   }
 
   if (englishWords.length > 0) {
-    await indexWordsToTypesense(typesense, wordsCollection, englishWords);
+    await addWordsToTypesense(typesense, wordsCollection, englishWords);
     console.log('✅');
-  }
-
-  let oldCollectionName;
-  try {
-    oldCollectionName = await typesense.aliases('english_words').retrieve()[
-      'collection_name'
-    ];
-  } catch (error) {
-    console.error(error);
   }
 })();
