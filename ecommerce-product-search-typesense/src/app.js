@@ -1,10 +1,25 @@
-const { algoliasearch, instantsearch } = window;
+import TypesenseInstantSearchAdapter from 'typesense-instantsearch-adapter';
 
-const searchClient = algoliasearch('latency', 'ecommerceapp');
+const typesenseInstantsearchAdapter = new TypesenseInstantSearchAdapter({
+  server: {
+    apiKey: 'ecommerceapp',
+    nodes: [
+      {
+        host: 'localhost',
+        port: '8108',
+        protocol: 'http',
+      },
+    ],
+  },
+  additionalSearchParameters: {
+    queryBy: 'name,categories,description', //quering by
+  },
+});
+const searchClient = typesenseInstantsearchAdapter.searchClient;
 
 const search = instantsearch({
-  indexName: 'products',
   searchClient,
+  indexName: 'products',
 });
 
 search.addWidgets([
