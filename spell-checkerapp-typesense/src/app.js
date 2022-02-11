@@ -25,15 +25,20 @@ const search = instantsearch({
 
 search.addWidgets([
   instantsearch.widgets.configure({
-    hitsPerPage: 24,
+    hitsPerPage: 4,
+    enablePersonalization: true,
   }),
 
   instantsearch.widgets.searchBox({
-    container: '#textbox',
+    container: '#searchbox',
+    placeholder: 'Spellcheck..',
+    showReset: true,
+    showLoadingIndicator: false,
   }),
 
   instantsearch.widgets.hits({
-    container: '#suggestions-list',
+    container: '#hits',
+    sortBy: 'popularity:desc',
     templates: {
       item:
         '{{#helpers.highlight}}{ "attribute": "word" }{{/helpers.highlight}}',
