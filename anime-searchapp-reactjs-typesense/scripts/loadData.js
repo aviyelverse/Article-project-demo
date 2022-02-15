@@ -121,14 +121,6 @@ module.exports = (async () => {
 
   console.log("Populating collection data...");
 
-  const bulk = animes.map((anime) => {
-    const genre = anime.genres.map((genre) => {
-      return {
-        name: genre,
-      };
-    });
-  });
-
   try {
     const returnData = await typesense
       .collections("animes")

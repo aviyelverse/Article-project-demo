@@ -21,7 +21,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "start-server": "node scripts/runServer.js"
+    "start-server": "node scripts/runServer.js",
+    "indexer": "node scripts/loadData.js"
   },
   "eslintConfig": {
     "extends": [
