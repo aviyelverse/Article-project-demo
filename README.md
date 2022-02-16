@@ -1,3 +1,9 @@
+# Chatwoot
+
+## Vanilla Html/CSS/Js landing page chatwoot integration
+
+![chatwoot](https://user-images.githubusercontent.com/37651620/154280547-d9793620-e7a2-4681-8dca-769761e38628.png)
+
 ## Anime Search app
 
 ![Final Demo](https://user-images.githubusercontent.com/37651620/154140579-f5d104b6-65cc-4b71-bd5a-9f7d8158771a.png)
