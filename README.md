@@ -1,10 +1,14 @@
+## Anime Search app
+
+![Final Demo](https://user-images.githubusercontent.com/37651620/154140579-f5d104b6-65cc-4b71-bd5a-9f7d8158771a.png)
+
 ## Songs Search app
 
-![Demo](https://user-images.githubusercontent.com/37651620/153408607-2f6d76b9-ab43-4da9-b736-d7edaa6fec34.png)
+![Final Demo](https://user-images.githubusercontent.com/37651620/153408607-2f6d76b9-ab43-4da9-b736-d7edaa6fec34.png)
 
 ## Ecommerce product search app with Nextjs and Tailwind
 
-![Demo](https://user-images.githubusercontent.com/37651620/153144074-768b2051-c4cc-4edc-a9e4-cd32b33371dc.png)
+![Final Demo](https://user-images.githubusercontent.com/37651620/153144074-768b2051-c4cc-4edc-a9e4-cd32b33371dc.png)
 
 ## Ecommerce search app
 
