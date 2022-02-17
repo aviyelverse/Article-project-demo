@@ -1,0 +1,88 @@
+#offer {
+  padding-top: 30px;
+  width: 100%;
+  height: 768px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../assets/offer.jpg);
+  text-align: center;
+  z-index: 0;
+}
+
+#offer::before {
+  content: "";
+  position: absolute;
+  background: -moz-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(8, 181, 170, 0.38) 0%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
+  background: -webkit-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(8, 181, 164, 0.38) 0%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
+  background: radial-gradient(
+    ellipse at center,
+    rgba(8, 172, 181, 0.38) 0%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.pr-heading {
+  text-align: center;
+  font-family: "Poppins";
+  width: 600px;
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  transform: translate(-50%, -55%);
+}
+.pr-heading span {
+  color: #00bfa6;
+}
+.pr-heading .details {
+  font-size: 23px;
+  color: #ffffff;
+}
+.pr-heading .details {
+  font-size: 1.2rem;
+}
+.pr-heading h1 {
+  font-family: "Poppins";
+  font-size: 4rem;
+  margin: 0px;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+.pr-btns {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 35%;
+}
+.pr-btn {
+  width: 160px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  background-color: #00bfa6;
+  box-shadow: 5px 10px 30px rgba(2, 255, 247, 0.336);
+  border-radius: 5px;
+  color: #ffffff;
+}
+.pr-btn:hover {
+  background-color: transparent;
+  transition: all ease 0.5s;
+  color: #ffffff;
+  border: 2px solid #00bfa6;
+}

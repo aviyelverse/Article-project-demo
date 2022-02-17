@@ -1,0 +1,90 @@
+#pricing {
+  margin-top: 100px;
+  width: 100%;
+  height: 120vh;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 5% 0px 5%;
+  position: relative;
+}
+
+#pricing::before {
+  content: "";
+  position: absolute;
+  background: -moz-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(8, 181, 170, 0.136) 0%,
+    rgba(24, 24, 24, 0.109) 100%
+  );
+  background: -webkit-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(8, 181, 170, 0.136) 0%,
+    rgba(24, 24, 24, 0.109) 100%
+  );
+  background: radial-gradient(
+    ellipse at center,
+    rgba(8, 181, 170, 0.061) 10%,
+    rgba(24, 24, 24, 0.095) 100%
+  );
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.pricing-heading {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  font-size: 3rem;
+  color: #00bfa6;
+  font-weight: 500;
+  margin: 0px;
+  padding: 0px;
+}
+
+.pricing-text {
+  width: 45%;
+  color: #fff;
+  list-style: circle;
+}
+
+.pricing-image p {
+  font-family: "Poppins";
+  width: 80%;
+  font-size: 1.2rem;
+  color: #f3f1f1;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.pricing-image button:hover {
+  box-shadow: 5px 10px 30px rgba(2, 221, 255, 0.336);
+  background-color: rgb(0, 0, 0);
+  transition: all ease 0.3s;
+  color: #ffffff;
+}
+.pricing-image {
+  width: 50%;
+  color: #f3f1f1;
+}
+.pricing-image button {
+  font-family: "Poppins";
+  margin-top: 20px;
+  width: 140px;
+  height: 45px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  background-color: #00bfa6;
+}
+.pricing-image img {
+  width: 600px;
+}
