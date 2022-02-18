@@ -14,7 +14,7 @@ toggle.addEventListener("click", () => {
   g.defer = true;
   g.async = true;
   s.parentNode.insertBefore(g, s);
-  g.onload = function () {
+  g.onload = function () { 
     window.chatwootSDK.run({
       websiteToken: "jaLCEXip3fFsAHUpwC3cFpHj",
       baseUrl: BASE_URL,
