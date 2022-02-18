@@ -11,20 +11,9 @@ const Home = () => {
             Stay<span>Healthy</span>and <span>Active</span>.
           </h1>
           <p className="details">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro,
-            beatae rem dolore incidunt doloribus numquam reprehenderit
-            consequuntur minus nobis cum esse deleniti eveniet? Ratione beatae
-            nemo nisi, eveniet assumenda, alias impedit quibusdam eaque iste
-            labore veritatis hic, dolorum error repudiandae?Lorem ipsum dolor,
-            sit amet consectetur adipisicing elit. Porro, beatae rem dolore
-            incidunt doloribus numquam reprehenderit consequuntur minus nobis
-            cum esse deleniti eveniet? Ratione beatae nemo nisi, eveniet
-            assumenda, alias impedit quibusdam eaque iste labore veritatis hic,
-            dolorum error repudiandae?Lorem ipsum dolor, sit amet consectetur
-            adipisicing elit. Porro, beatae rem dolore incidunt doloribus
-            numquam reprehenderit consequuntur minus nobis cum esse deleniti
-            eveniet? Ratione beatae nemo nisi, eveniet assumenda, alias impedit
-            quibusdam eaque iste labore veritatis hic, dolorum error?
+            We are a group of people who are passionate about fitness and want
+            to be able to help others. We are here to help you achieve your
+            goals and help you stay healthy and active.
           </p>
           <div className="header-btns">
             <a href="#" className="header-btn">

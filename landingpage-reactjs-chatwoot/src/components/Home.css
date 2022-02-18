@@ -15,18 +15,18 @@
   background: -moz-radial-gradient(
     center,
     ellipse cover,
-    rgba(8, 181, 170, 0.38) 0%,
+    rgba(95, 8, 181, 0.38) 0%,
     rgba(0, 0, 0, 0.6) 100%
   );
   background: -webkit-radial-gradient(
     center,
     ellipse cover,
-    rgba(8, 181, 164, 0.38) 0%,
+    rgba(74, 8, 181, 0.38) 0%,
     rgba(0, 0, 0, 0.6) 100%
   );
   background: radial-gradient(
     ellipse at center,
-    rgba(8, 172, 181, 0.38) 0%,
+    rgba(95, 8, 181, 0.38) 0%,
     rgba(0, 0, 0, 0.6) 100%
   );
   top: 0;
@@ -45,7 +45,7 @@
   transform: translate(-50%, -55%);
 }
 .name span {
-  color: #00bfa6;
+  color: #8661d1;
 }
 .name .details {
   font-size: 19px;
@@ -79,8 +79,8 @@
   justify-content: center;
   align-items: center;
   font-size: 1.4rem;
-  background-color: #00bfa6;
-  box-shadow: 5px 10px 30px rgba(2, 255, 217, 0.336);
+  background-color: #8661d1;
+  box-shadow: 5px 10px 30px rgba(135, 116, 165, 0.336);
   border-radius: 5px;
   color: #ffffff;
 }
@@ -88,5 +88,5 @@
   background-color: transparent;
   transition: all ease 0.5s;
   color: #ffffff;
-  border: 2px solid #14ffe4;
+  border: 2px solid #8661d1;
 }
