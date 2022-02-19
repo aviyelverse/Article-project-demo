@@ -8,6 +8,10 @@
 
 <img src="https://user-images.githubusercontent.com/37651620/154744394-98caebbf-1a67-492b-a229-0c6bb3eb62f8.png" style="border-radius:7px;box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);"/>
 
+## Next.js chatwoot integration
+
+<img src="https://user-images.githubusercontent.com/37651620/154792240-bc7f8143-95b5-49d8-9fed-ccf5e4df8429.png" style="border-radius:7px;box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);">
+
 ---
 
 # Typesense
