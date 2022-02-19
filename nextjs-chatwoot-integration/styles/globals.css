@@ -1,9 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap");
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #d5cde4;
+  /* image no repeat */
+  background-repeat: no-repeat;
+  /* image position */
+  background-position: center;
+  /* image size */
+  background-size: cover;
+  /* image attachment */
+  background-attachment: fixed;
+  /* image origin */
+  background-origin: border-box;
+  /* image clip */
+  background-clip: content-box;
+
+  background-image: url("https://i.pinimg.com/originals/15/17/4a/15174a8695a5efa262a6d6897610c8f8.gif");
+
+  font-family: "Poppins", sans-serif;
 }
 
 a {
