@@ -3,7 +3,7 @@ import { PricingTable, PricingSlot, PricingDetail } from "react-pricing-table";
 
 const PricingCard = () => {
   return (
-    <PricingTable highlightColor="#00bfa6">
+    <PricingTable highlightColor="#8661d1">
       <PricingSlot
         onClick={() => console.log("submit")}
         buttonText="TRY IT FREE"

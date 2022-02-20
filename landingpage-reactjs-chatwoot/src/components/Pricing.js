@@ -7,18 +7,17 @@ const Pricing = () => {
   return (
     <div id="pricing">
       <h1 className="pricing-heading">Pricing</h1>
+      <div className="pricing-text">
+        <PricingCard />
+      </div>
       <div className="pricing-image">
         <img src={pricingImage} alt="pricing image" />
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta odio
-          quibusdam, tenetur, corporis magni ipsa itaque esse sequi impedit unde
-          asperiores, ea dolores aperiam quis doloribus autem nesciunt numquam
-          cupiditate!
+          STRUCTURE DISCIPLINE. BUILD A HONORABLE HONOR WITH A MEMBERSHIP , YOU
+          CAN BUILD EVERY SINGLE DAY. GET THE BEST PRICE ON AMENITIES, WORKOUTS,
+          EQUIPMENT, AND PERSONAL TRAINING !
         </p>
-        <button>Explore</button>
-      </div>
-      <div className="pricing-text">
-        <PricingCard />
+        <button>Join Now !</button>
       </div>
     </div>
   );
