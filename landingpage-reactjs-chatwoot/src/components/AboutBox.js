@@ -8,12 +8,7 @@ function AboutBox(props) {
       </div>
       <div className="a-b-text">
         <h2>{props.title}</h2>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore iusto
-          quas consequatur nihil accusantium veniam facilis quibusdam, possimus
-          similique, voluptatum molestiae ipsum dolores dolor deserunt esse
-          quasi, aperiam libero odit.
-        </p>
+        <p>{props.paragraph}</p>
       </div>
     </div>
   );
