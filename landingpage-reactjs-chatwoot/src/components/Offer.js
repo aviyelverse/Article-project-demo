@@ -6,17 +6,13 @@ const Offer = () => {
     <div id="offer">
       <div className="pr-heading">
         <h1>
-          Awesome and <span>Exciting</span> offers
+          Heavy discounts on <span>memberships</span>
         </h1>
         <p className="details">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-          repellendus vitae iusto, quod temporibus, fugit minima atque
-          blanditiis saepe in labore alias similique accusantium pariatur
-          perspiciatis voluptate, ipsa beatae nemo porro assumenda dolor laborum
-          totam enim neque. Quia dolores perspiciatis quae autem reiciendis unde
-          accusantium magni architecto, quo ipsa natus, eveniet atque odit eius
-          aliquid possimus soluta enim quisquam maxime. Sapiente, rerum.
-          Temporibus, maiores blanditiis deleniti sint odit rerum nam!
+          If you want to reduce weight, increase your cardio, or build and tone
+          your muscles, 24/7 Fitness can help you. We provide a variety of
+          membership specials and discounts at 24/7 Fitness. It is not necessary
+          to spend a lot of money to live an active and healthy lifestyle.
         </p>
         <div className="pr-btns">
           <a href="#" className="pr-btn">

@@ -40,8 +40,8 @@
   height: 50%;
 }
 .about-box:hover {
-  border: 1px solid #00bfa6;
-  box-shadow: 2px 2px 12px rgba(0, 184, 178, 0.445);
+  border: 1px solid #8661d1;
+  box-shadow: 2px 2px 12px rgba(126, 0, 184, 0.445);
 }
 .a-b-text {
   width: 100%;
