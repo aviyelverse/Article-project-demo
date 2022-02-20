@@ -1,16 +1,15 @@
-import React from "react";
+import { useEffect } from "react";
 
-class ChatwootWidget extends React.Component {
-  componentDidMount() {
+const ChatwootWidget = () => {
+  useEffect(() => {
     // Add Chatwoot Settings
     window.chatwootSettings = {
       hideMessageBubble: false,
-      position: "right", // This can be left or right
-      locale: "en", // Language to be set
-      type: "standard", // [standard, expanded_bubble]
+      position: "right",
+      locale: "en",
+      type: "expanded_bubble",
     };
 
-    // Paste the script from inbox settings except the <script> tag
     (function (d, t) {
       var BASE_URL = "https://app.chatwoot.com";
       var g = d.createElement(t),
@@ -26,11 +25,9 @@ class ChatwootWidget extends React.Component {
         });
       };
     })(document, "script");
-  }
+  }, []);
 
-  render() {
-    return null;
-  }
-}
+  return null;
+};
 
 export default ChatwootWidget;

@@ -40,7 +40,7 @@ export default function Home(props) {
 
         <div className={styles.grid}>
           {posts.map((item, index) => (
-            <div className={styles.card}>
+            <div key={index} className={styles.card}>
               <h3 className={styles.card_title} key={item}>
                 {item.title}
               </h3>
