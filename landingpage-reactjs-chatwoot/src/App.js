@@ -5,6 +5,7 @@ import About from "./components/About";
 import Offer from "./components/Offer";
 import Pricing from "./components/Pricing";
 import Contact from "./components/Contact";
+import ChatwootWidget from "./components/ChatwootWidget";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Offer />
       <Pricing />
       <Contact />
+      <ChatwootWidget />
     </div>
   );
 }
