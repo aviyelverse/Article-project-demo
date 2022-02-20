@@ -1,7 +1,6 @@
 export default (req, res) => {
   res.status(200).json({
     posts: [
-      // 100 fake post
       {
         id: 1,
         title: "Learn Nextjs from scratch [Part-1]",
