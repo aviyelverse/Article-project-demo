@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-chatwoot-integration": {
+    "angularjs-chatwoot-integration": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/angular-chatwoot-integration",
+            "outputPath": "dist/angularjs-chatwoot-integration",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -68,10 +68,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "angular-chatwoot-integration:build:production"
+              "browserTarget": "angularjs-chatwoot-integration:build:production"
             },
             "development": {
-              "browserTarget": "angular-chatwoot-integration:build:development"
+              "browserTarget": "angularjs-chatwoot-integration:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -79,7 +79,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-chatwoot-integration:build"
+            "browserTarget": "angularjs-chatwoot-integration:build"
           }
         },
         "test": {
@@ -102,5 +102,5 @@
       }
     }
   },
-  "defaultProject": "angular-chatwoot-integration"
+  "defaultProject": "angularjs-chatwoot-integration"
 }
