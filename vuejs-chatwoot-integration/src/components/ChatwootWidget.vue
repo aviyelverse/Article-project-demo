@@ -1,4 +1,10 @@
 <script>
+window.chatwootSettings = {
+  hideMessageBubble: false,
+  position: "right",
+  locale: "en",
+  type: "expanded_bubble",
+};
 (function (d, t) {
   var BASE_URL = "https://app.chatwoot.com";
   var g = d.createElement(t),
