@@ -4,6 +4,11 @@
 
 <img src="https://user-images.githubusercontent.com/37651620/155326121-f82d7626-4abb-4e34-9287-ed93ce43f0ff.png" style="border-radius:7px;box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);"/>
 
+## Angular.js landing page chatwoot integration
+
+<img src="https://user-images.githubusercontent.com/37651620/155387426-c57b5661-f4a7-456c-9210-2219bd407de2.png" style="border-radius:7px;box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);"/>
+
+
 ## Vanilla Html/CSS/Js landing page chatwoot integration
 
 <img src="https://user-images.githubusercontent.com/37651620/154280547-d9793620-e7a2-4681-8dca-769761e38628.png" style="border-radius:7px;box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);"/>
