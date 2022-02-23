@@ -1,10 +1,5 @@
 <template>
-  <div
-    class="text-indigo-400 m-6 bg-cover bg-fixed"
-    style="
-      ;
-    "
-  >
+  <div class="text-indigo-400 m-6 bg-cover bg-fixed" style=" ;">
     <div class="h-full">
       <div class="w-full container mx-auto">
         <div class="w-full flex items-center justify-between">
@@ -13,7 +8,7 @@
             href="#"
           >
             Chatwoot-<span
-              class="bg-clip-text text-transparent bg-gradient-to-r from-green-400 via-pink-500 to-purple-500"
+              class="bg-clip-text text-transparent bg-gradient-to-r from-teal-400 via-green-500 to-blue-500"
               >InteGration</span
             >
           </a>
@@ -24,6 +19,13 @@
       <div
         class="container pt-24 md:pt-36 mx-auto flex flex-wrap flex-col md:flex-row items-center"
       >
+        <!--Right Col-->
+        <div class="w-full xl:w-3/5 p-2 overflow-hidden">
+          <img
+            class="mx-auto w-full md:w-4/5 transform -rotate-6 transition hover:scale-105 duration-700 ease-in-out hover:rotate-6"
+            src="../assets/ChatwootVue.svg"
+          />
+        </div>
         <!--Left Col-->
         <div
           class="flex flex-col w-full xl:w-2/5 justify-center lg:items-start overflow-y-hidden"
@@ -46,7 +48,7 @@
           </p>
 
           <form
-            class="bg-gray-900 opacity-75 w-full shadow-lg rounded-lg px-8 pt-6 pb-8 mb-4"
+            class="bg-teal-900 opacity-75 w-full shadow-lg rounded-lg px-20 pt-6 pb-8 mb-4"
           >
             <div class="mb-4">
               <label
@@ -65,21 +67,13 @@
 
             <div class="flex items-center justify-between pt-4">
               <button
-                class="bg-gradient-to-r from-teal-400 via-green-500 to-red-500 hover:from-pink-500 hover:to-green-500 text-white font-bold py-2 px-4 rounded focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
+                class="bg-gradient-to-r from-teal-400 via-green-500 to-blue-500 hover:from-pink-500 hover:to-green-500 text-white font-bold py-2 px-4 rounded focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
                 type="button"
               >
                 Sign Up
               </button>
             </div>
           </form>
-        </div>
-
-        <!--Right Col-->
-        <div class="w-full xl:w-3/5 p-12 overflow-hidden">
-          <img
-            class="mx-auto w-full md:w-4/5 transform -rotate-6 transition hover:scale-105 duration-700 ease-in-out hover:rotate-6"
-            src="macbook.svg"
-          />
         </div>
       </div>
     </div>
