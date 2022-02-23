@@ -1,14 +1,17 @@
 <template>
   <HomePage />
+  <ChatwootWidget />
 </template>
 
 <script>
 import HomePage from "./components/HomePage.vue";
+import ChatwootWidget from "./components/ChatwootWidget.vue";
 
 export default {
   name: "App",
   components: {
     HomePage,
+    ChatwootWidget,
   },
 };
 </script>
@@ -17,7 +20,7 @@ export default {
 #app {
   margin: 0;
   padding: 0;
-  background-image: url("https://user-images.githubusercontent.com/37651620/155296438-0254b910-2a96-4e1c-9b70-da290607d90b.gif");
+  background-image: url("./assets/Back.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
