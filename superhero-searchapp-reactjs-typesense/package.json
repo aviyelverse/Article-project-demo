@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
     "@testing-library/user-event": "^13.2.1",
+    "child_process": "^1.0.2",
     "instantsearch.css": "^7.4.5",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -19,7 +20,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "runServer": "node scripts/runServer.js"
   },
   "eslintConfig": {
     "extends": [
