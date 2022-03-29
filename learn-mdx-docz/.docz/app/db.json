@@ -1,0 +1,53 @@
+{
+  "config": {
+    "title": "Docz Documentation",
+    "description": "This is documentation site built using Docz",
+    "menu": [],
+    "version": "1.0.0",
+    "repository": null,
+    "native": false,
+    "themeConfig": {},
+    "separator": "-"
+  },
+  "entries": [
+    {
+      "key": "src/button.mdx",
+      "value": {
+        "name": "Alert Button",
+        "route": "/",
+        "menu": "ButtonComponents",
+        "id": "8f5789ed061427117979d8e0b65d5dbe",
+        "filepath": "src/button.mdx",
+        "fullpath": "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\src\\button.mdx",
+        "link": "",
+        "hidden": false,
+        "slug": "src-button",
+        "headings": [
+          {
+            "slug": "alert",
+            "depth": 1,
+            "value": "Alert"
+          },
+          {
+            "slug": "big-alert-button",
+            "depth": 1,
+            "value": "Big Alert Button"
+          }
+        ]
+      }
+    }
+  ],
+  "props": [
+    {
+      "key": "src/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "AlertButton",
+          "methods": [],
+          "actualName": "AlertButton"
+        }
+      ]
+    }
+  ]
+}
