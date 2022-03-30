@@ -1,12 +1,12 @@
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\@reach\\router\\index.js"), (function webpackLoadOptionalExternalModule() { try { return require("crypto"); } catch(e) {} }()), require("D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\assoc.js"), require("D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\first.js"), require("D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\flattenDepth.js"), require("D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\get.js"), require("D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\kebabCase.js"), require("D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\mapValues.js"), require("D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\merge.js"), require("D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\omit.js"), require("D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\pipe.js"), require("D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\throttle.js"), require("D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\unionBy.js"), require("D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\merge.js"), require("react"), require("react-dom/server"));
+		module.exports = factory(require("D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\@reach\\router\\index.js"), (function webpackLoadOptionalExternalModule() { try { return require("crypto"); } catch(e) {} }()), require("D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\assoc.js"), require("D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\first.js"), require("D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\flattenDepth.js"), require("D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\get.js"), require("D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\kebabCase.js"), require("D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\mapValues.js"), require("D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\merge.js"), require("D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\omit.js"), require("D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\pipe.js"), require("D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\throttle.js"), require("D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\unionBy.js"), require("D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\merge.js"), require("react"), require("react-dom/server"));
 	else if(typeof define === 'function' && define.amd)
-		define("lib", ["D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\@reach\\router\\index.js", "crypto", "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\assoc.js", "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\first.js", "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\flattenDepth.js", "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\get.js", "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\kebabCase.js", "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\mapValues.js", "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\merge.js", "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\omit.js", "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\pipe.js", "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\throttle.js", "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\unionBy.js", "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\merge.js", "react", "react-dom/server"], factory);
+		define("lib", ["D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\@reach\\router\\index.js", "crypto", "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\assoc.js", "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\first.js", "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\flattenDepth.js", "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\get.js", "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\kebabCase.js", "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\mapValues.js", "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\merge.js", "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\omit.js", "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\pipe.js", "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\throttle.js", "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\unionBy.js", "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\merge.js", "react", "react-dom/server"], factory);
 	else if(typeof exports === 'object')
-		exports["lib"] = factory(require("D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\@reach\\router\\index.js"), (function webpackLoadOptionalExternalModule() { try { return require("crypto"); } catch(e) {} }()), require("D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\assoc.js"), require("D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\first.js"), require("D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\flattenDepth.js"), require("D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\get.js"), require("D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\kebabCase.js"), require("D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\mapValues.js"), require("D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\merge.js"), require("D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\omit.js"), require("D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\pipe.js"), require("D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\throttle.js"), require("D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\unionBy.js"), require("D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\merge.js"), require("react"), require("react-dom/server"));
+		exports["lib"] = factory(require("D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\@reach\\router\\index.js"), (function webpackLoadOptionalExternalModule() { try { return require("crypto"); } catch(e) {} }()), require("D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\assoc.js"), require("D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\first.js"), require("D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\flattenDepth.js"), require("D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\get.js"), require("D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\kebabCase.js"), require("D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\mapValues.js"), require("D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\merge.js"), require("D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\omit.js"), require("D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\pipe.js"), require("D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\throttle.js"), require("D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\unionBy.js"), require("D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\merge.js"), require("react"), require("react-dom/server"));
 	else
-		root["lib"] = factory(root["D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\@reach\\router\\index.js"], root["crypto"], root["D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\assoc.js"], root["D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\first.js"], root["D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\flattenDepth.js"], root["D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\get.js"], root["D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\kebabCase.js"], root["D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\mapValues.js"], root["D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\merge.js"], root["D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\omit.js"], root["D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\pipe.js"], root["D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\throttle.js"], root["D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\unionBy.js"], root["D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\merge.js"], root["react"], root["react-dom/server"]);
+		root["lib"] = factory(root["D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\@reach\\router\\index.js"], root["crypto"], root["D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\assoc.js"], root["D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\first.js"], root["D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\flattenDepth.js"], root["D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\get.js"], root["D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\kebabCase.js"], root["D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\mapValues.js"], root["D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\merge.js"], root["D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\omit.js"], root["D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\pipe.js"], root["D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\throttle.js"], root["D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\unionBy.js"], root["D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\merge.js"], root["react"], root["react-dom/server"]);
 })(this, function(__WEBPACK_EXTERNAL_MODULE__reach_router__, __WEBPACK_EXTERNAL_MODULE_crypto__, __WEBPACK_EXTERNAL_MODULE_lodash_fp_assoc__, __WEBPACK_EXTERNAL_MODULE_lodash_fp_first__, __WEBPACK_EXTERNAL_MODULE_lodash_fp_flattenDepth__, __WEBPACK_EXTERNAL_MODULE_lodash_fp_get__, __WEBPACK_EXTERNAL_MODULE_lodash_fp_kebabCase__, __WEBPACK_EXTERNAL_MODULE_lodash_fp_mapValues__, __WEBPACK_EXTERNAL_MODULE_lodash_fp_merge__, __WEBPACK_EXTERNAL_MODULE_lodash_fp_omit__, __WEBPACK_EXTERNAL_MODULE_lodash_fp_pipe__, __WEBPACK_EXTERNAL_MODULE_lodash_fp_throttle__, __WEBPACK_EXTERNAL_MODULE_lodash_fp_unionBy__, __WEBPACK_EXTERNAL_MODULE_lodash_merge__, __WEBPACK_EXTERNAL_MODULE_react__, __WEBPACK_EXTERNAL_MODULE_react_dom_server__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -4742,7 +4742,7 @@ module.exports = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-var scope_0 = __webpack_require__(/*! ./.cache/caches/gatsby-plugin-mdx/mdx-scopes-dir/76d489aab9aad1c15d4a3f6e52e90ef3.js */ "./.cache/caches/gatsby-plugin-mdx/mdx-scopes-dir/76d489aab9aad1c15d4a3f6e52e90ef3.js").default;
+var scope_0 = __webpack_require__(/*! ./.cache/caches/gatsby-plugin-mdx/mdx-scopes-dir/6e7b9518325c35867211211aee643983.js */ "./.cache/caches/gatsby-plugin-mdx/mdx-scopes-dir/6e7b9518325c35867211211aee643983.js").default;
 
 const __DOCZ_DUMMY_EXPORT_DEFAULT = Object.assign({}, scope_0);
 
@@ -37211,63 +37211,76 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "../src/index.js":
-/*!***********************!*\
-  !*** ../src/index.js ***!
-  \***********************/
-/*! exports provided: AlertButton */
+/***/ "../src/components/Alerts/index.jsx":
+/*!******************************************!*\
+  !*** ../src/components/Alerts/index.jsx ***!
+  \******************************************/
+/*! exports provided: AlertBehaviour */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AlertButton", function() { return AlertButton; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AlertBehaviour", function() { return AlertBehaviour; });
 /* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "../node_modules/@babel/runtime/helpers/esm/extends.js");
 /* harmony import */ var _babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutProperties */ "../node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _emotion_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @emotion/core */ "../node_modules/@emotion/core/dist/core.esm.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! prop-types */ "../node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _emotion_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @emotion/core */ "../node_modules/@emotion/core/dist/core.esm.js");
 
 
-const _excluded = ["color", "size"];
+const _excluded = ["children", "behaviour"];
 
 
 
-const AlertButton = _ref => {
+const behaviours = {
+  primary: "#8661d1",
+  secondary: "#E2E3E5",
+  success: "#D4EDDA",
+  warning: "#FFF3CD",
+  info: "#D1ECF1",
+  light: "#FEFEFE",
+  dark: "#D6D8D9"
+};
+const AlertBehaviour = _ref => {
   let {
-    color,
-    size
+    children,
+    behaviour
   } = _ref,
-      props = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref, _excluded);
+      rest = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref, _excluded);
 
-  return Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])("button", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, props, {
+  return Object(_emotion_core__WEBPACK_IMPORTED_MODULE_4__["jsx"])("div", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
     style: {
-      fontSize: size === "small" ? 10 : 60,
-      backgroundColor: color === "success" ? "purple" : "green"
+      padding: 20,
+      background: "white",
+      borderRadius: 5,
+      color: "black",
+      font: "bold",
+      background: behaviours[behaviour]
     }
-  }));
+  }, rest), children);
 };
 
-
-
-if (typeof AlertButton !== 'undefined' && AlertButton && AlertButton === Object(AlertButton) && Object.isExtensible(AlertButton) && !AlertButton.hasOwnProperty('__filemeta')) {
-  Object.defineProperty(AlertButton, '__filemeta', {
+if (typeof AlertBehaviour !== 'undefined' && AlertBehaviour && AlertBehaviour === Object(AlertBehaviour) && Object.isExtensible(AlertBehaviour) && !AlertBehaviour.hasOwnProperty('__filemeta')) {
+  Object.defineProperty(AlertBehaviour, '__filemeta', {
     configurable: true,
     value: {
-      name: "AlertButton",
-      filename: "src/index.js"
+      name: "AlertBehaviour",
+      filename: "src/components/Alerts/index.jsx"
     }
   });
 }
 
-if (typeof AlertButton !== 'undefined' && AlertButton && AlertButton === Object(AlertButton) && Object.isExtensible(AlertButton) && !AlertButton.hasOwnProperty('__filemeta')) {
-  Object.defineProperty(AlertButton, '__filemeta', {
-    configurable: true,
-    value: {
-      name: "AlertButton",
-      filename: "src/index.js"
-    }
-  });
-}
+AlertBehaviour.propTypes = {
+  /**
+   * The kind prop is used to set the alert's background color
+   */
+  behaviour: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.oneOf(["primary", "secondary", "success", "warning", "info", "light", "dark"])
+};
+AlertBehaviour.defaultProps = {
+  behaviour: "primary"
+};
 
 /***/ }),
 
@@ -37290,11 +37303,11 @@ var plugins = [{
     "rehypePlugins": [null, null],
     "gatsbyRemarkPlugins": [],
     "defaultLayouts": {
-      "default": "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\gatsby-theme-docz\\src\\base\\Layout.js"
+      "default": "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\gatsby-theme-docz\\src\\base\\Layout.js"
     },
     "lessBabel": false,
     "mediaTypes": ["text/markdown", "text/x-markdown"],
-    "root": "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\.docz"
+    "root": "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\.docz"
   }
 }, {
   plugin: __webpack_require__(/*! ../node_modules/gatsby-plugin-react-helmet-async/gatsby-ssr */ "../node_modules/gatsby-plugin-react-helmet-async/gatsby-ssr.js"),
@@ -37566,25 +37579,26 @@ exports.wrapRootElement = true;
 
 /***/ }),
 
-/***/ "./.cache/caches/gatsby-plugin-mdx/mdx-scopes-dir/76d489aab9aad1c15d4a3f6e52e90ef3.js":
+/***/ "./.cache/caches/gatsby-plugin-mdx/mdx-scopes-dir/6e7b9518325c35867211211aee643983.js":
 /*!********************************************************************************************!*\
-  !*** ./.cache/caches/gatsby-plugin-mdx/mdx-scopes-dir/76d489aab9aad1c15d4a3f6e52e90ef3.js ***!
+  !*** ./.cache/caches/gatsby-plugin-mdx/mdx-scopes-dir/6e7b9518325c35867211211aee643983.js ***!
   \********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _src__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../src */ "../src/index.js");
-/* harmony import */ var docz__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! docz */ "../node_modules/docz/dist/index.esm.js");
+/* harmony import */ var docz__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! docz */ "../node_modules/docz/dist/index.esm.js");
+/* harmony import */ var _src_components_Alerts__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../src/components/Alerts */ "../src/components/Alerts/index.jsx");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
 
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-  AlertButton: _src__WEBPACK_IMPORTED_MODULE_0__["AlertButton"],
-  Playground: docz__WEBPACK_IMPORTED_MODULE_1__["Playground"],
+  Playground: docz__WEBPACK_IMPORTED_MODULE_0__["Playground"],
+  Props: docz__WEBPACK_IMPORTED_MODULE_0__["Props"],
+  AlertBehaviour: _src_components_Alerts__WEBPACK_IMPORTED_MODULE_1__["AlertBehaviour"],
   React: react__WEBPACK_IMPORTED_MODULE_2__
 });
 
@@ -38870,9 +38884,9 @@ function stripPrefix(str, prefix = ``) {
 /***/ }),
 
 /***/ "@reach/router":
-/*!***********************************************************************************************************************************!*\
-  !*** external "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\@reach\\router\\index.js" ***!
-  \***********************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************!*\
+  !*** external "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\@reach\\router\\index.js" ***!
+  \*****************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -38893,9 +38907,9 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_crypto__;
 /***/ }),
 
 /***/ "lodash/fp/assoc":
-/*!*******************************************************************************************************************************!*\
-  !*** external "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\assoc.js" ***!
-  \*******************************************************************************************************************************/
+/*!*************************************************************************************************************************************************!*\
+  !*** external "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\assoc.js" ***!
+  \*************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -38904,9 +38918,9 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_lodash_fp_assoc__;
 /***/ }),
 
 /***/ "lodash/fp/first":
-/*!*******************************************************************************************************************************!*\
-  !*** external "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\first.js" ***!
-  \*******************************************************************************************************************************/
+/*!*************************************************************************************************************************************************!*\
+  !*** external "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\first.js" ***!
+  \*************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -38915,9 +38929,9 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_lodash_fp_first__;
 /***/ }),
 
 /***/ "lodash/fp/flattenDepth":
-/*!**************************************************************************************************************************************!*\
-  !*** external "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\flattenDepth.js" ***!
-  \**************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************!*\
+  !*** external "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\flattenDepth.js" ***!
+  \********************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -38926,9 +38940,9 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_lodash_fp_flattenDepth__;
 /***/ }),
 
 /***/ "lodash/fp/get":
-/*!*****************************************************************************************************************************!*\
-  !*** external "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\get.js" ***!
-  \*****************************************************************************************************************************/
+/*!***********************************************************************************************************************************************!*\
+  !*** external "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\get.js" ***!
+  \***********************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -38937,9 +38951,9 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_lodash_fp_get__;
 /***/ }),
 
 /***/ "lodash/fp/kebabCase":
-/*!***********************************************************************************************************************************!*\
-  !*** external "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\kebabCase.js" ***!
-  \***********************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************!*\
+  !*** external "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\kebabCase.js" ***!
+  \*****************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -38948,9 +38962,9 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_lodash_fp_kebabCase__;
 /***/ }),
 
 /***/ "lodash/fp/mapValues":
-/*!***********************************************************************************************************************************!*\
-  !*** external "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\mapValues.js" ***!
-  \***********************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************!*\
+  !*** external "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\mapValues.js" ***!
+  \*****************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -38959,9 +38973,9 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_lodash_fp_mapValues__;
 /***/ }),
 
 /***/ "lodash/fp/merge":
-/*!*******************************************************************************************************************************!*\
-  !*** external "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\merge.js" ***!
-  \*******************************************************************************************************************************/
+/*!*************************************************************************************************************************************************!*\
+  !*** external "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\merge.js" ***!
+  \*************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -38970,9 +38984,9 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_lodash_fp_merge__;
 /***/ }),
 
 /***/ "lodash/fp/omit":
-/*!******************************************************************************************************************************!*\
-  !*** external "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\omit.js" ***!
-  \******************************************************************************************************************************/
+/*!************************************************************************************************************************************************!*\
+  !*** external "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\omit.js" ***!
+  \************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -38981,9 +38995,9 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_lodash_fp_omit__;
 /***/ }),
 
 /***/ "lodash/fp/pipe":
-/*!******************************************************************************************************************************!*\
-  !*** external "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\pipe.js" ***!
-  \******************************************************************************************************************************/
+/*!************************************************************************************************************************************************!*\
+  !*** external "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\pipe.js" ***!
+  \************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -38992,9 +39006,9 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_lodash_fp_pipe__;
 /***/ }),
 
 /***/ "lodash/fp/throttle":
-/*!**********************************************************************************************************************************!*\
-  !*** external "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\throttle.js" ***!
-  \**********************************************************************************************************************************/
+/*!****************************************************************************************************************************************************!*\
+  !*** external "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\throttle.js" ***!
+  \****************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -39003,9 +39017,9 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_lodash_fp_throttle__;
 /***/ }),
 
 /***/ "lodash/fp/unionBy":
-/*!*********************************************************************************************************************************!*\
-  !*** external "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\fp\\unionBy.js" ***!
-  \*********************************************************************************************************************************/
+/*!***************************************************************************************************************************************************!*\
+  !*** external "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\fp\\unionBy.js" ***!
+  \***************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -39014,9 +39028,9 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_lodash_fp_unionBy__;
 /***/ }),
 
 /***/ "lodash/merge":
-/*!***************************************************************************************************************************!*\
-  !*** external "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\lodash\\merge.js" ***!
-  \***************************************************************************************************************************/
+/*!*********************************************************************************************************************************************!*\
+  !*** external "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\lodash\\merge.js" ***!
+  \*********************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 

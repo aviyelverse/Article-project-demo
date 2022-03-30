@@ -47,7 +47,7 @@ const config = {
         open: null,
         'open-browser': null,
         root:
-          'D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\.docz',
+          'D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\.docz',
         base: '/',
         source: './',
         'gatsby-root': null,
@@ -67,37 +67,37 @@ const config = {
         separator: '-',
         paths: {
           root:
-            'D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz',
+            'D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz',
           templates:
-            'D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\node_modules\\docz-core\\dist\\templates',
+            'D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\node_modules\\docz-core\\dist\\templates',
           docz:
-            'D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\.docz',
+            'D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\.docz',
           cache:
-            'D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\.docz\\.cache',
+            'D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\.docz\\.cache',
           app:
-            'D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\.docz\\app',
+            'D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\.docz\\app',
           appPackageJson:
-            'D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\package.json',
+            'D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\package.json',
           appTsConfig:
-            'D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\tsconfig.json',
+            'D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\tsconfig.json',
           gatsbyConfig:
-            'D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\gatsby-config.js',
+            'D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\gatsby-config.js',
           gatsbyBrowser:
-            'D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\gatsby-browser.js',
+            'D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\gatsby-browser.js',
           gatsbyNode:
-            'D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\gatsby-node.js',
+            'D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\gatsby-node.js',
           gatsbySSR:
-            'D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\gatsby-ssr.js',
+            'D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\gatsby-ssr.js',
           importsJs:
-            'D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\.docz\\app\\imports.js',
+            'D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\.docz\\app\\imports.js',
           rootJs:
-            'D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\.docz\\app\\root.jsx',
+            'D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\.docz\\app\\root.jsx',
           indexJs:
-            'D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\.docz\\app\\index.jsx',
+            'D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\.docz\\app\\index.jsx',
           indexHtml:
-            'D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\.docz\\app\\index.html',
+            'D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\.docz\\app\\index.html',
           db:
-            'D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\.docz\\app\\db.json',
+            'D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\.docz\\app\\db.json',
         },
       },
     },

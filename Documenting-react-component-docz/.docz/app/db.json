@@ -11,27 +11,37 @@
   },
   "entries": [
     {
-      "key": "src/button.mdx",
+      "key": "src/components/Alerts/alert.mdx",
       "value": {
-        "name": "Alert Button",
-        "route": "/",
-        "menu": "ButtonComponents",
-        "id": "8f5789ed061427117979d8e0b65d5dbe",
-        "filepath": "src/button.mdx",
-        "fullpath": "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\learn-mdx-docz\\src\\button.mdx",
+        "name": "AlertButton",
+        "menu": "Components",
+        "id": "1e11f31e900a403bd8933693c0592e8b",
+        "filepath": "src/components/Alerts/alert.mdx",
+        "fullpath": "D:\\AviyelDemo\\ArticleProjectDemo\\Article-project-demo\\Documenting-react-component-docz\\src\\components\\Alerts\\alert.mdx",
         "link": "",
         "hidden": false,
-        "slug": "src-button",
+        "slug": "src-components-alerts-alert",
+        "route": "/src-components-alerts-alert",
         "headings": [
           {
-            "slug": "alert",
+            "slug": "alert-warnings",
             "depth": 1,
-            "value": "Alert"
+            "value": "Alert Warnings"
           },
           {
-            "slug": "big-alert-button",
-            "depth": 1,
-            "value": "Big Alert Button"
+            "slug": "properties",
+            "depth": 2,
+            "value": "Properties"
+          },
+          {
+            "slug": "basic-usage",
+            "depth": 2,
+            "value": "Basic usage"
+          },
+          {
+            "slug": "examples",
+            "depth": 2,
+            "value": "Examples"
           }
         ]
       }
@@ -39,13 +49,56 @@
   ],
   "props": [
     {
-      "key": "src/index.js",
+      "key": "src/components/Alerts/index.jsx",
       "value": [
         {
           "description": "",
-          "displayName": "AlertButton",
+          "displayName": "AlertBehaviour",
           "methods": [],
-          "actualName": "AlertButton"
+          "actualName": "AlertBehaviour",
+          "props": {
+            "behaviour": {
+              "type": {
+                "name": "enum",
+                "value": [
+                  {
+                    "value": "\"primary\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"secondary\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"success\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"warning\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"info\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"light\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"dark\"",
+                    "computed": false
+                  }
+                ]
+              },
+              "required": false,
+              "description": "The kind prop is used to set the alert's background color",
+              "defaultValue": {
+                "value": "\"primary\"",
+                "computed": false
+              }
+            }
+          }
         }
       ]
     }
